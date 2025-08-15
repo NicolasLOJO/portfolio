@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio de Nicolas LOPEZ--JOREL
 
-## Getting Started
+Bienvenue sur le code source de mon portfolio personnel. Ce projet a été conçu pour être une vitrine moderne et interactive de mon parcours, de mes compétences et de mes réalisations en tant que développeur Full-Stack.
 
-First, run the development server:
+![Aperçu du portfolio](public/portfolio.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Fonctionnalités Clés
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Design Immersif :** Un Hero animé avec des sphères en mouvement créées avec Framer Motion.
+- **Présentation Structurée :** Une grille "Bento" pour la section "À propos" et une timeline de carrière animée.
+- **Galerie de Projets :** Une galerie pour présenter mes réalisations, avec une modale détaillée pour les études de cas.
+- **Formulaire de Contact Fonctionnel :** Intégration de l'API Resend pour un envoi d'emails fiable.
+- **Thème Sombre & Clair :** Entièrement thématisé avec `next-themes` et `shadcn/ui`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technologies Utilisées
 
-To learn more about Next.js, take a look at the following resources:
+Ce projet a été construit avec les technologies les plus modernes de l'écosystème JavaScript :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework :** [Next.js](https://nextjs.org/) (App Router)
+- **Langage :** [TypeScript](https://www.typescriptlang.org/)
+- **Styling :** [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
+- **Animations :** [Framer Motion](https://www.framer.com/motion/)
+- **Envoi d'email :** [Resend](https://resend.com/)
+- **Déploiement :** [Vercel](https://vercel.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Démarrage en Local
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pour lancer ce projet sur votre machine, suivez ces étapes :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Clonez le repository :**
+
+    ```bash
+    git clone [https://github.com/votre-pseudo/votre-repo.git](https://github.com/votre-pseudo/votre-repo.git)
+    cd votre-repo
+    ```
+
+2.  **Installez les dépendances :**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Configurez les variables d'environnement :**
+    Créez un fichier `.env.local` à la racine et ajoutez vos clés (pour Resend).
+
+    ```
+    RESEND_API_KEY=...
+    EMAIL_FROM=...
+    EMAIL_TO=...
+    ```
+
+4.  **Lancez le serveur de développement :**
+    ```bash
+    npm run dev
+    ```
+
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
