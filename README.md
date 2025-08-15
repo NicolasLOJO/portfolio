@@ -36,7 +36,7 @@ Pour lancer ce projet sur votre machine, suivez ces étapes :
 1.  **Clonez le repository :**
 
     ```bash
-    git clone [https://github.com/votre-pseudo/votre-repo.git](https://github.com/votre-pseudo/votre-repo.git)
+    git clone [https://github.com/NicolasLOJO/portfolio.git](https://github.com/NicolasLOJO/portfolio.git)
     cd votre-repo
     ```
 
