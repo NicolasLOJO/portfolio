@@ -37,7 +37,7 @@ Pour lancer ce projet sur votre machine, suivez ces étapes :
 
     ```bash
     git clone [https://github.com/NicolasLOJO/portfolio.git](https://github.com/NicolasLOJO/portfolio.git)
-    cd votre-repo
+    cd portfolio
     ```
 
 2.  **Installez les dépendances :**
