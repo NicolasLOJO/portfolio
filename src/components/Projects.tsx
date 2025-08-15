@@ -128,22 +128,21 @@ const userExperiences: Project[] = [
     tags: ["Azure DevOps", "Git", "GitFlow", "CI/CD", "Automatisation"],
   },
   {
-    type: "Architecture & Dév. Full-Stack",
-    project: "Application Qualib",
+    type: "Application SaaS B2B",
+    project: "Qualib - Contrôle Qualité",
     icon: <Zap className="w-6 h-6" />,
     challenge:
-      "Construire une nouvelle application interne ('Qualib') de A à Z, en définissant une architecture moderne et maintenable.",
+      "Développer une application web complète pour un client, destinée à ses propres clients pour le contrôle qualité du béton préfabriqué.",
     impact:
-      "J'ai mis en place l'architecture complète (React/Redux en front, .NET Core en back) et développé l'application, qui est devenue un outil central et robuste pour l'entreprise.",
+      "J'ai architecturé et développé une plateforme multi-tenant robuste, permettant aux clients de notre client de suivre et de gérer leurs contrôles qualité. L'application, construite avec React/Redux et .NET Core, est devenue un outil essentiel pour leur activité.",
     tags: [
-      "Azure DevOps",
+      "Architecture SaaS",
       "React",
       "ReduxToolkit",
       "C#",
       ".NET Core",
       "MUI",
       "SQL Server",
-      "Architecture",
     ],
   },
   {
@@ -163,6 +162,23 @@ const userExperiences: Project[] = [
       "MUI",
       "SQL Server",
       "Architecture",
+    ],
+  },
+  {
+    type: "Outil Interne & DevOps",
+    project: "Dashboard de Suivi de Sprint",
+    icon: <Rocket className="w-6 h-6" />,
+    challenge:
+      "Créer un outil centralisé pour améliorer la visibilité et la gestion des sprints pour les équipes de développement, qui perdaient du temps à naviguer entre plusieurs interfaces.",
+    impact:
+      "J'ai développé un dashboard interne connecté aux API Microsoft Entra et Azure DevOps. L'outil offre une visualisation en temps réel de l'avancement, facilite la manipulation des tickets et permet de générer des analyses de performance post-sprint, améliorant ainsi la productivité de l'équipe.",
+    tags: [
+      "React",
+      "Microsoft Entra",
+      "Azure DevOps API",
+      "C#",
+      ".NET Core",
+      "Dashboarding",
     ],
   },
   {
@@ -261,7 +277,7 @@ const Projects = () => {
                 </Card>
               </motion.div>
             ))}
-            <div className="flex-shrink-0 w-1"></div>
+            <div className="flex-shrink-0 w-1 md:hidden"></div>
           </div>
         </div>
 
